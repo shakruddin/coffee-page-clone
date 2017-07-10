@@ -1,0 +1,207 @@
+.navbar {
+      margin-bottom: 0;
+      background-color: #1f1208 !important;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      padding: 20px;
+      font-family: aladin, sans-serif;
+      border: none !important;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+      font-size: 20px;
+  }
+.navbar-brand{
+    padding: 5px !important;
+}
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #a3543f !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+.jumbot{
+    width: 100%;
+    height: 600px;
+    background-image: url(../image/img-1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 !important;
+}
+.text{
+    background-color: rgba(0,0,0,0.6);
+    width: 56%;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+.bg-1{
+    background-color: #1f1208;
+}
+.bg-2{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.p-1{
+    color: #fff !important;
+    font-family:ubuntu !important;
+    font-size: 30px !important;
+    font-weight: 100 !important;
+}
+h2{
+    display: block;
+    margin-top: 0;
+    line-height: 10px;
+    font-size: 90px !important;
+    color: #56271b !important;
+    font-family: aladin, sans-serif !important;
+}
+.lead{
+    font-weight: 500px;
+    line-height: 10px;
+}
+.cntr{
+    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bg-4{
+    padding: 25px;
+}
+.item{
+    margin-top: 20px;
+    margin-bottom: 0 !important;
+    height: 250px;
+    background-image: url(../image/img-12.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button-1{
+    padding: 15px 20px 15px 20px;
+    background-color: #683e2b;
+    color: #FFF;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.button-1:hover{
+    background-color: #a81400;
+}
+.gallery{
+    text-align: center;
+}
+.gallery-1{
+    margin-top: 40px;
+    line-height: 70px;
+}
+.BG-1{
+    margin: 60px 0px 60px 0px;
+}
+.BG-2{
+    margin: 30px 0px 30px 0px;
+}
+.contai {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(255,255,255,0.5);
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.contai:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.ron{
+    margin-bottom: 0 !important;
+    width: 100%;
+    background-image: url(../image/img-2.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0 !important;
+}
+.navgurukul{
+    margin: 0 !important;
+    background-color: rgba(0,0,0,0.6);
+    padding: 80px;
+}
+.one{
+    font-size: 25px;
+    color: #fff;
+}
+.guru{
+    margin-bottom: 80px !important;
+}
+ input{
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid #bda797;
+    padding: 12px 16px;
+    margin-bottom: 20px !important;
+    color: #fff !important;
+    font-size: 16px !important; 
+}
+textarea{
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid #bda797;
+    height: 100px;
+    padding: 12px 16px;
+    color: #fff !important;
+    font-size: 16px !important;
+    margin-bottom: 20px !important;
+    overflow: none;
+}
+.button{
+    padding: 16px 12px;
+    border: 1px solid #bda797;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.bg-11{
+    margin-bottom: 20px;
+}
